@@ -1,10 +1,8 @@
-import { Outlet } from "react-router-dom";
-
+import Campaigns from "../../Components/Campaigns/Campaigns";
 const Home = () => {
   return (
-    <div>
-      <h3 className="text-4xl">Hello from Home</h3>
-      <Outlet />
+    <div className="my-16">
+      <Campaigns />
     </div>
   );
 };

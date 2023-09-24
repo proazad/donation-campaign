@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <div className="container mx-auto flex flex-col items-center justify-center gap-10 py-32">
-      <h2 className="text-5xl font-bold">I Grow By Helping People In Need</h2>
+      <h2 className="text-2xl lg:text-5xl font-bold">I Grow By Helping People In Need</h2>
       <div className="form-control">
         <label className="input-group">
           <input

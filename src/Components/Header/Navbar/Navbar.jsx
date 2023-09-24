@@ -1,10 +1,17 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../../../public/Logo.png";
 const Navbar = () => {
   return (
-    <nav className="container mx-auto flex items-center justify-between py-2">
+    <nav className="container mx-auto flex items-center justify-between py-4">
       <div>
-        <img src={logo} alt="Donation Campaign" draggable="false" />
+        <Link to="/">
+          <img
+            src={logo}
+            alt="Donation Campaign"
+            className="h-14"
+            draggable="false"
+          />
+        </Link>
       </div>
       <ul className="flex gap-5 font-bold">
         <li>
