@@ -1,26 +1,17 @@
-import { NavLink } from "react-router-dom";
-import logo from "../../../public/Logo.png"
+import background from "../../../public/background.jpeg";
+import Banner from "./Banner/Banner";
+import Navbar from "./Navbar/Navbar";
+console.log(background);
 const Header = () => {
-    return (
-        <header className="">
-            <nav className="container mx-auto flex items-center justify-between py-2">
-                <div>
-                    <img src={logo} alt="Donation Campaign" draggable="false" />
-                </div>
-                <ul className="flex gap-5 font-bold">
-                    <li>
-                        <NavLink to="/" className={`text-lg font-bold`}>Home</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/donation" className={`text-lg font-bold`}>Donation</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/statistics" className={`text-lg font-bold`}>Statistics</NavLink>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    );
+  return (
+    <header
+      className="bg-no-repeat bg-cover bg-slate-200 bg-blend-screen bg-center  h-[85vh]"
+      style={{ backgroundImage: `url(${background})` }}
+    >
+      <Navbar />
+      <Banner />
+    </header>
+  );
 };
 
 export default Header;
