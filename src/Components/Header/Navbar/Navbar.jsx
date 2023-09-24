@@ -20,7 +20,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/donation" className={`text-lg font-bold`}>
+          <NavLink to="/donations" className={`text-lg font-bold`}>
             Donation
           </NavLink>
         </li>
