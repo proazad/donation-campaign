@@ -1,10 +1,11 @@
 import { Outlet } from "react-router-dom";
+import Header from "../Components/Header/Header";
 
 const MainLayout = () => {
   return (
     <div>
-      <h2 className="text-4xl">Hello From Main Layout</h2>
-      <Outlet/>
+      <Header />
+      <Outlet />
     </div>
   );
 };

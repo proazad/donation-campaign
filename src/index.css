@@ -6,3 +6,7 @@
 * {
   font-family: "Inter", sans-serif;
 }
+.active {
+  color: #ff444a;
+  border-bottom: 1px solid #ff444a;
+}
