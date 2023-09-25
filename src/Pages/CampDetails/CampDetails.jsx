@@ -17,8 +17,8 @@ const CampDetails = () => {
     }
   };
   return (
-    <div className="container mx-auto">
-      <div className="px-16 my-16 space-y-8">
+    <div className="container mx-auto px-2 xl:px-0">
+      <div className="xl:px-16 my-6 xl:my-16 space-y-8">
         <div className="relative">
           <img src={picture} className="w-full" alt="" draggable="false" />
           <div className=" py-5 px-5 absolute bottom-0 backdrop-opacity-10 backdrop-invert bg-black/50 w-full">
@@ -32,7 +32,7 @@ const CampDetails = () => {
           </div>
         </div>
         <div className="space-y-4">
-          <h2 className="text-4xl font-bold">{title}</h2>
+          <h2 className="text-2xl xl:text-4xl font-bold">{title}</h2>
           <p className="text-base font-normal">{description}</p>
         </div>
       </div>
