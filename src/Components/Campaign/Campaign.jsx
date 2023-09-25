@@ -16,7 +16,7 @@ const Campaign = ({ campaign }) => {
       style={{ backgroundColor: card_bg_color }}
     >
       <Link to={`/details/${id}`}>
-        <img src={picture} alt="" className="w-full" draggable="false"></img>
+        <img src={picture} alt="" className="w-full h-52 rounded-t-md" draggable="false"></img>
         <div className="p-5 space-y-5">
           <p
             style={{ backgroundColor: button_bg_color, color: text_color }}
