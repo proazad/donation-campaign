@@ -2,133 +2,139 @@
   {
     "id": 1,
     "picture": "https://i.ibb.co/nQ1wXg0/help-children.jpg",
-    "title": "Help Feed Hungry Children",
-    "category": "Food",
     "text_color": "#0052FF",
     "card_bg_color": "#0052ff26",
     "button_bg_color": "#0052ff33",
-    "price": 25,
-    "description": "Your donation will provide nutritious meals to underprivileged children in our community. Hunger should never be a barrier to a child's future. Join us in making a difference today. With your support, we can ensure that no child goes to bed hungry. We work closely with local schools, shelters, and community organizations to identify and assist families in need. Your contribution of $25 can provide a week's worth of healthy meals for a child. Together, we can create a brighter future for the next generation."
+    "title": "Promoting Health and Wellness",
+    "category": "Health",
+    "price": 150,
+    "description": "In the pursuit of a better world, few causes are as noble as the promotion of health and wellness. At its core, this mission embodies the very essence of human compassion, the desire to alleviate suffering, and the commitment to provide every individual with the opportunity to lead a life defined by vitality and well-being. Your contribution to this cause can make a profound difference, enabling organizations and initiatives to provide essential medical care, access to medications, and health education to those in need. Together, we can bridge gaps in healthcare, ensure that no one is denied treatment due to financial constraints, and work towards a world where everyone has the chance to lead a healthy, fulfilling life."
   },
   {
     "id": 2,
     "picture": "https://i.ibb.co/x5zxdd9/education.jpg",
-    "title": "Support Education for All",
-    "category": "Education",
     "text_color": "#FF444A",
     "card_bg_color": "#ff444a26",
     "button_bg_color": "#ff444a33",
+    "title": "Eradicating Hunger, One Meal at a Time",
+    "category": "Food",
     "price": 50,
-    "description": "Help us ensure that every child has access to quality education. Your donation will fund scholarships, school supplies, and educational programs for disadvantaged students. Education is the key to breaking the cycle of poverty and creating opportunities for a brighter future. Your $50 donation can provide textbooks and educational materials for a student for an entire semester. Join us in empowering the next generation through the gift of education."
+    "description": "Hunger is a stark reality for millions around the world, a cruel reminder of the imbalances that persist in our society. But it's a problem with a solution within reach – your support can help us take a giant step towards eradicating hunger. Whether it's contributing to food banks, supporting community kitchens, or participating in meal programs, your donation will have a direct impact on those facing food insecurity. We believe that hunger should never stand as a barrier to a child's future. Your generosity can provide nourishing meals to those who need them most, helping us work towards a future where no one goes to bed hungry. Join us in this campaign against hunger, and together, we can make a significant difference in the lives of individuals and families struggling to put food on their tables."
   },
   {
     "id": 3,
     "picture": "https://i.ibb.co/N6XtZ32/download.jpg",
-    "title": "Protect Our Environment",
-    "category": "Environment",
     "text_color": "#79C23F",
     "card_bg_color": "#79c23f26",
     "button_bg_color": "#79c23f33",
-    "price": 30,
-    "description": "Contribute to the preservation of our planet. Your donation will support reforestation efforts, wildlife conservation, and eco-friendly initiatives to combat climate change. Our planet is facing unprecedented challenges, and it's crucial that we take action now. With your $30 donation, we can plant trees, protect endangered species, and reduce carbon emissions. Let's work together to create a sustainable future for generations to come."
+    "title": "Empowering Minds Through Education",
+    "category": "Education",
+    "price": 200,
+    "description": "Education is the cornerstone of progress, the catalyst for transformation, and the beacon of hope for countless individuals striving for a better life. By supporting education, you are not merely funding classrooms; you are investing in the future, empowering young minds to overcome barriers and shaping a world where opportunities abound. Your donation to this cause fuels scholarships, supplies classrooms with essential learning materials, and supports educational programs for disadvantaged students. It's about bridging the gap, ensuring that no child is left behind due to a lack of access to quality education. Your contribution equips students with the knowledge and skills they need to become leaders, scientists, artists, and thinkers of tomorrow. Join us in this journey to empower minds through education, because when we invest in education, we invest in a brighter, more equitable future."
   },
   {
     "id": 4,
     "picture": "https://i.ibb.co/2FTq3RD/women.jpg",
-    "title": "Empower Women in Business",
-    "category": "Gender Equality",
+    "text_color": "#F87147",
+    "card_bg_color": "#f8714726",
+    "button_bg_color": "#f8714733",
+    "title": "Dressing Lives with Dignity",
+    "category": "Clothing",
+    "price": 30,
+    "description": "Clothing is not merely a matter of fashion; it's a matter of dignity, comfort, and self-esteem. For many, access to proper clothing is a daily struggle. Your donation to this cause ensures that individuals, particularly those facing hardship, have access to clean and appropriate clothing. Your contribution can provide clothing for families, offering warmth during harsh winters and relief during scorching summers. Additionally, it supports clothing drives and initiatives that distribute clothing to homeless individuals, refugees, and disaster survivors. Clothing is about more than just fabric; it's about empowerment. It empowers individuals to present themselves with confidence, to attend school, job interviews, and social gatherings. It gives people a sense of belonging and self-worth. Together, we can ensure that no one has to go without proper clothing, regardless of their circumstances. Join us in this campaign to dress lives with dignity and make an impact on the lives of those who need it most."
+  },
+
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/Kj9JzN6/health.jpg",
     "text_color": "#FF444A",
     "card_bg_color": "#ff444a26",
     "button_bg_color": "#ff444a33",
+    "title": "Nourishing Families, Ending Hunger",
+    "category": "Food",
+    "price": 75,
+    "description": "Families across the globe face the harsh reality of hunger every day. Your support can help nourish these families and put an end to food insecurity. Your donation of $75 can provide a month's supply of essential groceries to a struggling family. Together, we can work towards a world where no one has to worry about where their next meal will come from. Join us in the fight against hunger, and let's nourish families and communities together."
+  },
+
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/Wp5JpTG/SPORTS.webp",
+    "text_color": "#79C23F",
+    "card_bg_color": "#79c23f26",
+    "button_bg_color": "#79c23f33",
+    "title": "Building Futures Through Education",
+    "category": "Education",
+    "price": 250,
+    "description": "Education is the foundation upon which dreams are built. Your contribution can transform lives by supporting quality education, scholarships, and educational infrastructure. Your generous donation of $250 can provide a year's worth of textbooks and school supplies for a deserving student. Join us in building brighter futures through education, where every child has the opportunity to learn, grow, and succeed."
+  },
+
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/bv73gyz/homeless-shelter.jpg",
+    "text_color": "#F87147",
+    "card_bg_color": "#f8714726",
+    "button_bg_color": "#f8714733",
+    "title": "Warmth for All Seasons",
+    "category": "Clothing",
     "price": 40,
-    "description": "Promote gender equality by helping women entrepreneurs thrive. Your donation will fund training, mentorship, and resources to empower women in business. Women have immense potential as entrepreneurs, and your $40 donation can make a significant impact. We provide business training, access to capital, and mentorship to women looking to start or expand their businesses. Join us in leveling the playing field and fostering economic empowerment for women."
+    "description": "Access to proper clothing is essential for comfort and dignity. Your support can provide warm clothing for individuals in need during winter and suitable attire for job interviews and daily life. Your donation of $40 can supply a winter coat, gloves, and a scarf to someone facing the cold season without adequate protection. Join us in spreading warmth for all seasons and ensuring that everyone has suitable clothing to face the challenges of life."
   },
   {
     "id": 5,
     "picture": "https://i.ibb.co/z5tY95y/img.jpg",
-    "title": "Provide Clean Water",
-    "category": "Water Access",
     "text_color": "#0052FF",
     "card_bg_color": "#0052ff26",
     "button_bg_color": "#0052ff33",
-    "price": 20,
-    "description": "Access to clean water is a basic human right. Your donation will help build wells, purify water sources, and improve sanitation in underserved communities. Millions of people around the world lack access to clean drinking water, leading to preventable diseases. Your $20 donation can provide clean water to a family for a month, improving their health and quality of life. Join us in making safe drinking water a reality for all."
+    "title": "Hope for Children's Health",
+    "category": "Health",
+    "price": 120,
+    "description": "Every child deserves a healthy start in life. Your donation can make a significant impact by supporting pediatric healthcare, vaccinations, and nutrition programs. Together, we can ensure that children have access to the medical care they need to thrive and grow. Your generous contribution of $120 can provide vital vaccinations and preventive care to protect children from life-threatening diseases. Join us in giving hope for children's health and a brighter future."
   },
+
   {
-    "id": 6,
-    "picture": "https://i.ibb.co/Kj9JzN6/health.jpg",
-    "title": "Support Health Care Workers",
-    "category": "Healthcare",
-    "text_color": "#FF444A",
-    "card_bg_color": "#ff444a26",
-    "button_bg_color": "#ff444a33",
-    "price": 35,
-    "description": "Honor the heroes on the frontlines of healthcare. Your donation will provide protective gear, medical supplies, and mental health support for healthcare workers. Healthcare workers risk their lives daily to save others. Your $35 donation can provide personal protective equipment (PPE), medical supplies, and mental health resources to support their well-being. Let's show our gratitude and ensure their safety."
-  },
-  {
-    "id": 7,
-    "picture": "https://i.ibb.co/Wp5JpTG/SPORTS.webp",
-    "title": "Empower Youth Through Sports",
-    "category": "Sports",
+    "id": 11,
+    "picture": "https://i.ibb.co/HNybchr/Education.png",
     "text_color": "#79C23F",
     "card_bg_color": "#79c23f26",
     "button_bg_color": "#79c23f33",
-    "price": 30,
-    "description": "Help children discover their potential through sports. Your donation will fund sports equipment, coaching, and youth development programs. Sports play a vital role in the physical and emotional development of children. Your $30 donation can provide sports equipment, coaching, and access to sports programs for underprivileged youth. Join us in fostering teamwork, discipline, and confidence in the next generation."
-  },
-  {
-    "id": 8,
-    "picture": "https://i.ibb.co/bv73gyz/homeless-shelter.jpg",
-    "title": "Shelter for the Homeless",
-    "category": "Homelessness",
-    "text_color": "#FF444A",
-    "card_bg_color": "#ff444a26",
-    "button_bg_color": "#ff444a33",
-    "price": 45,
-    "description": "Provide a safe haven for those experiencing homelessness. Your donation will support shelters, outreach programs, and access to essential services. Homelessness is a crisis that affects individuals and families. Your $45 donation can provide a warm bed, meals, and access to support services for a homeless person. Join us in offering hope and stability to those in need."
-  },
-  {
-    "id": 9,
-    "picture": "https://i.ibb.co/HNybchr/Education.png",
-    "title": "Promote Arts and Culture",
-    "category": "Arts",
-    "text_color": "#0052FF",
-    "card_bg_color": "#0052ff26",
-    "button_bg_color": "#0052ff33",
-    "price": 25,
-    "description": "Nurture creativity and preserve cultural heritage. Your donation will fund art exhibitions, music festivals, and educational programs. Arts and culture enrich our lives and connect us to our heritage. Your $25 donation can support art exhibitions, music festivals, and educational programs, fostering creativity and preserving cultural traditions. Join us in celebrating the beauty of the arts."
+    "title": "Scholarships for Higher Education",
+    "category": "Education",
+    "price": 300,
+    "description": "Higher education can open doors to countless opportunities, but it often comes with a significant financial burden. Your contribution can change lives by funding scholarships for deserving students. Your generous donation of $300 can cover a portion of tuition fees for a university-bound student. Join us in supporting higher education and empowering the next generation of leaders and innovators."
   },
   {
     "id": 10,
     "picture": "https://i.ibb.co/HNybchr/Education.png",
-    "title": "Animal Welfare",
-    "category": "Animals",
-    "text_color": "#79C23F",
-    "card_bg_color": "#79c23f26",
-    "button_bg_color": "#79c23f33",
-    "price": 40,
-    "description": "Support the well-being of animals. Your donation will aid animal shelters, rescue efforts, and initiatives to protect endangered species. Animals are part of our world, and they need our protection. Your $40 donation can rescue and care for abandoned pets, protect endangered species, and support wildlife conservation efforts. Join us in being a voice for animals."
+    "text_color": "#FF444A",
+    "card_bg_color": "#ff444a26",
+    "button_bg_color": "#ff444a33",
+    "title": "Emergency Food Relief",
+    "category": "Food",
+    "price": 90,
+    "description": "During times of crisis, access to food becomes even more challenging. Your support can provide emergency food relief to communities affected by disasters and emergencies. Your donation of $90 can supply essential food packages to families in crisis, ensuring they have sustenance during challenging times. Join us in providing emergency food relief to those in need."
   },
   {
-    "id": 11,
+    "id": 9,
     "picture": "https://i.ibb.co/HNybchr/Education.png",
-    "title": "Promote Mental Health",
-    "category": "Mental Health",
-    "text_color": "#79C23F",
-    "card_bg_color": "#79c23f26",
-    "button_bg_color": "#79c23f33",
-    "price": 35,
-    "description": "Break the stigma surrounding mental health. Your donation will provide access to therapy, awareness campaigns, and resources for those in need. Mental health is as important as physical health. Your $35 donation can fund therapy sessions, awareness campaigns, and resources for individuals struggling with mental health challenges. Let's end the stigma and support mental well-being."
+
+    "text_color": "#0052FF",
+    "card_bg_color": "#0052ff26",
+    "button_bg_color": "#0052ff33",
+    "title": "Supporting Maternal Health",
+    "category": "Health",
+    "price": 180,
+    "description": "Maternal health is a critical concern, and your contribution can help ensure safe pregnancies and childbirth. Your donation of $180 can provide prenatal care and support to expectant mothers, reducing the risks associated with childbirth. Join us in supporting maternal health and giving every mother the care and attention she deserves."
   },
   {
     "id": 12,
     "picture": "https://i.ibb.co/HNybchr/Education.png",
-    "title": "Emergency Relief Fund",
-    "category": "Disaster Relief",
-    "text_color": "#79C23F",
-    "card_bg_color": "#79c23f26",
-    "button_bg_color": "#79c23f33",
+
+    "text_color": "#F87147",
+    "card_bg_color": "#f8714726",
+    "button_bg_color": "#f8714733",
+    "title": "Dignified Clothing for Veterans",
+    "category": "Clothing",
     "price": 50,
-    "description": "Support disaster-stricken communities in times of crisis. Your donation will provide immediate relief, including food, shelter, and medical aid. Disasters can strike at any time, and your $50 donation can make a difference in the lives of those affected. It can provide emergency food, clean water, shelter, and medical care to families in crisis. Join us in offering a lifeline to disaster-stricken communities."
+    "description": "Many veterans face challenges when transitioning back to civilian life, including access to appropriate clothing for job interviews and daily life. Your support can provide dignified clothing to honor their service. Your donation of $50 can supply professional attire and essentials for a veteran in need. Join us in showing our appreciation and support for our veterans."
   }
 ]

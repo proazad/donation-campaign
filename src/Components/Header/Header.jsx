@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import background from "../../../public/background.jpeg";
 import Banner from "./Banner/Banner";
 import Navbar from "./Navbar/Navbar";
-const Header = () => {
+const Header = ({ handleSearch }) => {
   const location = useLocation();
   const path = location.pathname === "/";
   return (
@@ -11,7 +11,7 @@ const Header = () => {
       style={{ backgroundImage: path && `url(${background})` }}
     >
       <Navbar />
-      {path && <Banner />}
+      {path && <Banner handleSearch={handleSearch} />}
     </header>
   );
 };

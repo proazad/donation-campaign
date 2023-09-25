@@ -22,7 +22,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="relative">
-        {navtoggle === true ? (
+        {/* {navtoggle === true ? (
           <AiOutlineMenu
             className="text-2xl"
             onClick={() => handleNavbarToggle(!navtoggle)}
@@ -32,7 +32,7 @@ const Navbar = () => {
             className="text-2xl"
             onClick={() => handleNavbarToggle(!navtoggle)}
           />
-        )}
+        )} */}
         <div className={`absolute right-0`}>
           <ul className="flex flex-col lg:flex-row gap-3 lg:gap-5 font-bold">
             <li>
