@@ -14,11 +14,12 @@ const Route = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+        loader: () => fetch("/data.json"),
       },
       {
         path: "/details/:id",
         element: <CampDetails />,
-        loader: ()=> fetch("/data.json")
+        loader: () => fetch("/data.json"),
       },
       {
         path: "/donations",

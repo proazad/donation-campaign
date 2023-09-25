@@ -1,13 +1,6 @@
-import { useEffect, useState } from "react";
 import Campaign from "../Campaign/Campaign";
-
-const Campaigns = () => {
-  const [campaigns, setCampaigns] = useState([]);
-  useEffect(() => {
-    fetch("/data.json")
-      .then((res) => res.json())
-      .then((data) => setCampaigns(data));
-  }, []);
+import PropTypes from "prop-types";
+const Campaigns = ({ campaigns }) => {
   return (
     <>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
@@ -18,5 +11,7 @@ const Campaigns = () => {
     </>
   );
 };
-
+Campaigns.propTypes = {
+  campaigns: PropTypes.array,
+};
 export default Campaigns;

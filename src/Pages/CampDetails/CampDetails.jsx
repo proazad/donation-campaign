@@ -1,18 +1,18 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { getData, saveLocalStorage } from "../../Utility/Utility";
-import swal from 'sweetalert';
+import swal from "sweetalert";
 const CampDetails = () => {
   const camps = useLoaderData();
   const { id } = useParams();
   const currentCamp = camps.find((camp) => camp.id === parseInt(id));
-  const { picture, title, description, price } = currentCamp;
+  const { picture, title, description, price, text_color } = currentCamp;
   const handleDonation = (Camp) => {
     const localData = getData();
     const isExist = localData.find((local) => local.id === Camp.id);
     if (isExist) {
-      swal("Oops!", "already Added", "error");
+      swal("Sorry!", "This is Duplicate Donation", "error");
     } else {
-      swal("Hello world!");
+      swal("Good job!", "Your Donation is Successfull", "success");
       saveLocalStorage(Camp);
     }
   };
@@ -23,6 +23,7 @@ const CampDetails = () => {
           <img src={picture} className="w-full" alt="" draggable="false" />
           <div className=" py-5 px-5 absolute bottom-0 backdrop-opacity-10 backdrop-invert bg-black/50 w-full">
             <button
+            style={{backgroundColor: text_color}}
               onClick={() => handleDonation(currentCamp)}
               className="bg-[#FF444A] py-2 px-4 rounded-md text-white"
             >

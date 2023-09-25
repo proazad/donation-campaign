@@ -1,9 +1,15 @@
+import { useEffect, useState } from "react";
 import Campaigns from "../../Components/Campaigns/Campaigns";
 const Home = () => {
+  const [campaigns, setCampaigns] = useState([]);
+  useEffect(() => {
+    fetch("./data.json")
+      .then((res) => res.json())
+      .then((data) => setCampaigns(data));
+  }, []);
   return (
     <div className="my-16">
-      
-      <Campaigns />
+      <Campaigns campaigns={campaigns} />
     </div>
   );
 };
