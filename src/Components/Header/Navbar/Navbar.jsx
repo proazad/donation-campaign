@@ -21,43 +21,44 @@ const Navbar = () => {
           />
         </Link>
       </div>
-      <div className="relative">
-        {/* {navtoggle === true ? (
-          <AiOutlineMenu
-            className="text-2xl"
-            onClick={() => handleNavbarToggle(!navtoggle)}
-          />
-        ) : (
-          <AiOutlineClose
-            className="text-2xl"
-            onClick={() => handleNavbarToggle(!navtoggle)}
-          />
-        )} */}
-        <div className={`absolute right-0`}>
-          <ul className="flex flex-col lg:flex-row gap-3 lg:gap-5 font-bold">
-            <li>
-              <NavLink to="/" className={`text-base lg:text-lg font-bold`}>
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/donations"
-                className={`text-base lg:text-lg font-bold`}
-              >
-                Donation
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/statistics"
-                className={`text-base lg:text-lg font-bold`}
-              >
-                Statistics
-              </NavLink>
-            </li>
-          </ul>
+
+      <div>
+        <div className="md:hidden">
+          {navtoggle === true ? (
+            <AiOutlineMenu
+              className="text-2xl "
+              onClick={() => handleNavbarToggle(!navtoggle)}
+            />
+          ) : (
+            <AiOutlineClose
+              className="text-2xl"
+              onClick={() => handleNavbarToggle(!navtoggle)}
+            />
+          )}
         </div>
+        <ul className={`flex absolute right-2 top-20 md:top-0 md:static md:right-auto flex-col items-center md:flex-row gap-3 lg:gap-5 font-bold ${navtoggle ? 'hidden' : ''}`}>
+          <li>
+            <NavLink to="/" className={`text-base lg:text-lg font-bold`}>
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/donations"
+              className={`text-base lg:text-lg font-bold`}
+            >
+              Donation
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/statistics"
+              className={`text-base lg:text-lg font-bold`}
+            >
+              Statistics
+            </NavLink>
+          </li>
+        </ul>
       </div>
     </nav>
   );

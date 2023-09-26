@@ -25,6 +25,11 @@ const Donations = () => {
   };
   return (
     <div className="my-10 container mx-auto px-2 xl:px-0">
+      <div className="flex justify-center items-center">
+        <h2 className="text-4xl text-gray-400">
+          {Camps.length === 0 && "No Data Found"}
+        </h2>
+      </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         {Camps.map((Camp) => (
           <Donation key={Camp.id} Camp={Camp}></Donation>

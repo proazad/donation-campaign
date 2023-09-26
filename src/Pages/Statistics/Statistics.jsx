@@ -1,9 +1,21 @@
+import { createContext } from "react";
+import PiChart from "../../Components/PieChart/PieChart";
+import { useLoaderData } from "react-router-dom";
+export const AllCampPirce = createContext();
 const Statistics = () => {
-    return (
-        <div>
-            <h2 className="text-5xl">Hello From Statistics</h2>
-        </div>
-    );
+  const allcamp = useLoaderData();
+  let allprice = 0;
+  allcamp.forEach((item) => {
+    const newPrice = item.price;
+    allprice += newPrice;
+  });
+  return (
+    <div>
+      <AllCampPirce.Provider value={allprice}>
+        <PiChart allprice={allprice}></PiChart>
+      </AllCampPirce.Provider>
+    </div>
+  );
 };
 
 export default Statistics;
