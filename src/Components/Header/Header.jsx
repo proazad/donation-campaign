@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { useLocation } from "react-router-dom";
 import background from "../../../public/background.jpeg";
 import Banner from "./Banner/Banner";
@@ -7,13 +8,18 @@ const Header = ({ handleSearch }) => {
   const path = location.pathname === "/";
   return (
     <header
-      className="bg-no-repeat bg-cover bg-slate-200 bg-blend-screen bg-center"
+      className={`bg-no-repeat bg-cover ${path && "bg-slate-200"} bg-blend-screen bg-center`}
       style={{ backgroundImage: path && `url(${background})` }}
     >
-      <Navbar />
+      <div className="container mx-auto">
+        <Navbar />
+      </div>
       {path && <Banner handleSearch={handleSearch} />}
     </header>
   );
+};
+Header.propTypes = {
+  handleSearch: PropTypes.func,
 };
 
 export default Header;

@@ -1,18 +1,13 @@
-import { getData } from "../../Utility/Utility";
-import { useContext, useEffect } from "react";
-import { AllCampPirce } from "../../Pages/Statistics/Statistics";
-
-import { PieChart as Pchart, Pie, Cell, Tooltip } from "recharts";
-
-const data = [
-  { name: "Total Donation", value: 400 },
-  { name: "Group B", value: 300 },
-  { name: "Group C", value: 300 },
-  { name: "Group D", value: 200 },
-];
-
-const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
-
+import PropTypes from "prop-types";
+import {
+  Cell,
+  Legend,
+  PieChart as Pchart,
+  Pie,
+  ResponsiveContainer,
+  Tooltip,
+} from "recharts";
+const COLORS = ["#FF444A", "#00C49F"];
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({
   cx,
@@ -38,31 +33,30 @@ const renderCustomizedLabel = ({
     </text>
   );
 };
-export default function PieChart() {
-  useEffect(() => {
-    const allDonation = getData();
-    let price = 0;
-    allDonation.forEach((camp) => {
-      const newprice = camp.price;
-      price += newprice;
-    });
-  }, []);
-  const allCampPrice = useContext(AllCampPirce);
+export default function PieChart({ data }) {
   return (
-    <Pchart width={400} height={400}>
-      <Pie
-        data={data}
-        labelLine={false}
-        label={renderCustomizedLabel}
-        outerRadius={80}
-        fill="#8884d8"
-        dataKey="value"
-      >
-        {data.map((entry, index) => (
-          <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-        ))}
-      </Pie>
-      <Tooltip></Tooltip>
-    </Pchart>
+    <ResponsiveContainer width="100%" height="100%">
+      <Pchart width={400} height={400}>
+        <Pie
+          data={data}
+          cx="50%"
+          cy="50%"
+          labelLine={false}
+          label={renderCustomizedLabel}
+          outerRadius={80}
+          fill="#8884d8"
+          dataKey="value"
+        >
+          {data.map((entry, index) => (
+            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+          ))}
+        </Pie>
+        <Tooltip></Tooltip>
+        <Legend />
+      </Pchart>
+    </ResponsiveContainer>
   );
 }
+PieChart.propTypes = {
+  data: PropTypes.array,
+};

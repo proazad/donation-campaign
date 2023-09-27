@@ -1,19 +1,16 @@
-import { createContext } from "react";
 import PiChart from "../../Components/PieChart/PieChart";
 import { useLoaderData } from "react-router-dom";
-export const AllCampPirce = createContext();
+import { getData } from "../../Utility/Utility";
 const Statistics = () => {
   const allcamp = useLoaderData();
-  let allprice = 0;
-  allcamp.forEach((item) => {
-    const newPrice = item.price;
-    allprice += newPrice;
-  });
+  const allDonation = getData();
+  const data = [
+    { name: "Total Donation", value: allcamp.length - allDonation.length },
+    { name: "Your Donation", value: allDonation.length },
+  ];
   return (
-    <div>
-      <AllCampPirce.Provider value={allprice}>
-        <PiChart allprice={allprice}></PiChart>
-      </AllCampPirce.Provider>
+    <div className="container mx-auto justify-center h-[600px]">
+      <PiChart data={data}></PiChart>
     </div>
   );
 };
